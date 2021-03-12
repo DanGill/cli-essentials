@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="scprint",
-    version="1.1.0b0",
+    name="cli-essentials",
+    version="0.0.0b0",
     author="Daniel Gill",
-    author_email="DanG_@outlook.com",
-    description="Simple Colored Print",
+    author_email="DGill_@outlook.com",
+    description="Python CLI building essentials",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/DanGill/scprint",
+    url="https://github.com/DanGill/cli-essentials",
     py_modules=["scprint", "colors"],
     packages=setuptools.find_packages(),
     keywords="simple color colour colored coloured print",
