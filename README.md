@@ -14,11 +14,11 @@ $ python -m pip install cli-essentials
 ### **Usage**
 
 ```python
-from CLI import <feature> #  This will import only one feature of your choosing
+from CLI import <feature> # This will import only one feature of your choosing
 # --or--
-from CLI import <feature1>, <feature2>, ... #  This will import as many features as you would like
+from CLI import <feature1>, <feature2>, ... # This will import as many features as you would like
 # --or--
-from CLI import * #  This will import all CLI features
+from CLI import * # This will import all CLI features
 ```
 
 ### **Feature List**
@@ -27,15 +27,15 @@ from CLI import * #  This will import all CLI features
    ```python
    from CLI import clear
 
-   print("Hello World!") #  "Hello World!" is printed to the console
-   clear() #  The console is clear again
+   print("Hello World!") # "Hello World!" is printed to the console
+   clear() # The console is clear again
    ```
 
 - **Print**
 
    ```python
-   from CLI import print #  The new print function will not negatively effect any existing code that uses print
+   from CLI import print # This will not effect existing print functions in your program
 
-   print("Red", color="red") #  "I am red" is printed to the console with a red foreground color
-   print("Blue and Green", color="blue", bcolor="green") #  This has a blue foreground color with a green background color
+   print("Apple", color="red") # "Apple" is printed to the console with a Red foreground color
+   print("Sky", color="blue", bcolor="white") # "Sky" is printed in Blue with a White background
    ```
