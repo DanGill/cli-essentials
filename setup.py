@@ -11,7 +11,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/DanGill/cli-essentials",
-    py_modules=["CLI"],
+    py_modules=["CLI", "colors"],
     packages=setuptools.find_packages(),
     keywords="cli-essentials cli essentials simple color colour easy basic",
     classifiers=[
