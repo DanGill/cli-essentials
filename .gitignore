@@ -2,6 +2,7 @@
 .push.bat
 .clear.bat
 setup.py
+cli_essentials.egg-info
 dist
 build
 testing
