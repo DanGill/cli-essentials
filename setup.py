@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cli-essentials",
-    version="0.0.0b1",
+    version="0.0.1",
     author="Daniel Gill",
     description="Python CLI building essentials",
     long_description=long_description,
