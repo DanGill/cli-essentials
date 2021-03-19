@@ -1,7 +1,7 @@
 # **CLI Essentials**
 #### Essential pieces of code aimed at making your Python projects a little bit better.
 
-[![MIT Licence](https://img.shields.io/github/license/DanGill/cli-essentials)](https://github.com/DanGill/scprint/blob/master/LICENSE) [![PyPi Version](https://img.shields.io/pypi/v/cli-essentials)](https://pypi.org/project/cli-essentials/) [![Python Version](https://img.shields.io/pypi/pyversions/cli-essentials)](https://www.python.org/) [![Downloads](https://img.shields.io/pypi/dm/cli-essentials)](https://pypi.org/project/cli-essentials/)
+[![MIT Licence](https://img.shields.io/github/license/DanGill/cli-essentials)](https://github.com/DanGill/cli-essentials/blob/master/LICENSE) [![PyPi Version](https://img.shields.io/pypi/v/cli-essentials)](https://pypi.org/project/cli-essentials/) [![Python Version](https://img.shields.io/pypi/pyversions/cli-essentials)](https://www.python.org/) [![Downloads](https://img.shields.io/pypi/dm/cli-essentials)](https://pypi.org/project/cli-essentials/)
 
 
 
