@@ -58,9 +58,14 @@ def print(*args, color=None, bcolor=None, sep=" ", **kwargs):
             if color[0] == "#":
                 color = color[1:]
                 colorIsHex = 1
+              
+            code = None
             for i in range(len(colors)):
                 if colors[i][colorIsHex].lower() == color.lower():
                     code = (u"\u001b[38;5;" + str(i) + u"m")
+            
+            if code == None:
+                raise ValueError("Colour '" +str(color)+ "' is not a valid colour in colors.py.")
         else:
             code = ""
 
@@ -68,9 +73,14 @@ def print(*args, color=None, bcolor=None, sep=" ", **kwargs):
             if bcolor[0] == "#":
                 bcolor = bcolor[1:]
                 bcolorIsHex = 1
+
+            bcode = None
             for i in range(len(colors)):
                 if colors[i][bcolorIsHex].lower() == bcolor.lower():
                     bcode = (u"\u001b[48;5;" + str(i) + u"m")
+            
+            if bcode == None:
+                raise ValueError("Background Colour '" +str(bcolor)+ "' is not a valid colour in colors.py.")
         else:
             bcode = ""
 
