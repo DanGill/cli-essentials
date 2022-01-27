@@ -40,4 +40,4 @@ from CLI import * # This will import all CLI features
    print("Sky", color="blue", bcolor="white") # "Sky" is printed in Blue with a White background
    ```
 
-   ![Color Chart](/assets/images/001.png)
+   ![Color Chart](https://raw.githubusercontent.com/DanGill/cli-essentials/main/assets/images/001.png)
