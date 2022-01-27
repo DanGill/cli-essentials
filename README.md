@@ -21,8 +21,6 @@ from CLI import <feature1>, <feature2>, ... # This will import as many features 
 from CLI import * # This will import all CLI features
 ```
 
-![Color Chart](/assets/images/001.png)
-
 ### **Feature List**
  - **Clear**
 
@@ -41,3 +39,5 @@ from CLI import * # This will import all CLI features
    print("Apple", color="red") # "Apple" is printed to the console with a Red foreground color
    print("Sky", color="blue", bcolor="white") # "Sky" is printed in Blue with a White background
    ```
+
+   ![Color Chart](/assets/images/001.png)
