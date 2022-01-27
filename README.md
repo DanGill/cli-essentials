@@ -21,7 +21,7 @@ from CLI import <feature1>, <feature2>, ... # This will import as many features 
 from CLI import * # This will import all CLI features
 ```
 
-![Color Chart](/assets/001.png)
+![Color Chart](/assets/images/001.png)
 
 ### **Feature List**
  - **Clear**
